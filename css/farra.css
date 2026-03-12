@@ -89,12 +89,35 @@ body{
             width: 80%;
         }
 
-        section img{
-            width: 20%;
+        .nomeplaylist{
+            display: flex;
+            padding-bottom: 50px;
+            align-items: center;
+        }
+
+        .nomeplaylist img{
+            width: 15%;
             height: auto;
             padding: 6px;
             border-radius: 20px;
         }
+
+        .playlist ul{
+            list-style: none;
+        }   
+
+        .playlist li{
+            display: flex;
+            align-items: center;
+        }
+
+        .playlist img{
+            border-radius: 20px;
+            width: 6%;
+            height: auto;
+            padding: 10px;
+        }
+
 
     aside{
         width: 20%;
